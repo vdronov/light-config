@@ -1,4 +1,4 @@
-package com.dron.lightconfig.convertion.exceptions;
+package com.dron.lightconfig.conversion.exceptions;
 
 /**
  * @author Vasiliy Dronov

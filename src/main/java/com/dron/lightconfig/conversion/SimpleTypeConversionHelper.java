@@ -1,6 +1,6 @@
-package com.dron.lightconfig.convertion;
+package com.dron.lightconfig.conversion;
 
-import com.dron.lightconfig.convertion.exceptions.ConversionException;
+import com.dron.lightconfig.conversion.exceptions.ConversionException;
 import com.dron.lightconfig.utils.MiscUtils;
 
 import java.text.SimpleDateFormat;
@@ -64,7 +64,7 @@ public class SimpleTypeConversionHelper {
                 return format.parse(value);
             }
 
-            Class<? extends com.dron.lightconfig.convertion.TypeDeserializer<?>> customDeserializer = typeConversionInfo.getCustomDeserializer();
+            Class<? extends com.dron.lightconfig.conversion.TypeDeserializer<?>> customDeserializer = typeConversionInfo.getCustomDeserializer();
             if (customDeserializer != null) {
                 return customDeserializer.newInstance().deserialize(value);
             }

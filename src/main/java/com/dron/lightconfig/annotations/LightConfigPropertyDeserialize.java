@@ -1,6 +1,6 @@
 package com.dron.lightconfig.annotations;
 
-import com.dron.lightconfig.convertion.TypeDeserializer;
+import com.dron.lightconfig.conversion.TypeDeserializer;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -1,7 +1,7 @@
 package com.dron.lightconfig.reflection;
 
-import com.dron.lightconfig.convertion.TypeConversionInfo;
-import com.dron.lightconfig.convertion.TypeDeserializer;
+import com.dron.lightconfig.conversion.TypeConversionInfo;
+import com.dron.lightconfig.conversion.TypeDeserializer;
 
 /**
  * DTO to store the metadata of config's method

@@ -1,4 +1,4 @@
-package com.dron.lightconfig.convertion;
+package com.dron.lightconfig.conversion;
 
 /**
  * Deserializer, needed for some crafty cases e.g to deserialize enums, as Java doesn't know how to deserialize abstract enum.

@@ -5,7 +5,7 @@ import com.dron.lightconfig.annotations.LightConfigProperty;
 import com.dron.lightconfig.annotations.LightConfigPropertyDeserialize;
 import com.dron.lightconfig.annotations.LightConfigPropertyFormat;
 import com.dron.lightconfig.conversion.ColorDeserializer;
-import com.dron.lightconfig.convertion.TypeDeserializer;
+import com.dron.lightconfig.conversion.TypeDeserializer;
 import com.dron.lightconfig.utils.MiscUtils;
 import org.junit.jupiter.api.Test;
 

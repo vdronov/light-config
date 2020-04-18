@@ -1,7 +1,7 @@
 package com.dron.lightconfig.proxy;
 
 import com.dron.lightconfig.reflection.MethodInfo;
-import com.dron.lightconfig.convertion.SimpleTypeConversionHelper;
+import com.dron.lightconfig.conversion.SimpleTypeConversionHelper;
 import com.dron.lightconfig.suppliers.RawPropertiesSupplier;
 
 import java.lang.reflect.InvocationHandler;

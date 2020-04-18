@@ -1,4 +1,4 @@
-package com.dron.lightconfig.convertion;
+package com.dron.lightconfig.conversion;
 
 /**
  * @author Vasiliy Dronov

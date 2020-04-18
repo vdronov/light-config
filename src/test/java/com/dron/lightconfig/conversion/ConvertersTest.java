@@ -1,10 +1,7 @@
 package com.dron.lightconfig.conversion;
 
 import com.dron.lightconfig.Color;
-import com.dron.lightconfig.convertion.TypeDeserializer;
-import com.dron.lightconfig.convertion.TypeConversionInfo;
-import com.dron.lightconfig.convertion.SimpleTypeConversionHelper;
-import com.dron.lightconfig.convertion.exceptions.ConversionException;
+import com.dron.lightconfig.conversion.exceptions.ConversionException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
