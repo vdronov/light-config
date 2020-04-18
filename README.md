@@ -7,6 +7,23 @@ Spring boot's alternative is a good one but it is included to spring boot...
 As a good mama's Java developer I had to write my own config!
 
 ## Usage 
+Think about property source:
+```java
+        Map<String, String> propertiesMap = new HashMap<>();
+
+        propertiesMap.put("db.url", "jdbc://${db.hostport}/${db.name}");
+        propertiesMap.put("db.name", "db");
+        propertiesMap.put("db.hostport", "${db.host}:${db.port}");
+        propertiesMap.put("db.host", "${machine.ip}");
+        propertiesMap.put("db.port", "5432");
+        propertiesMap.put("db", "abrakadabra");
+        propertiesMap.put("machine.ip", "127.0.0.1");
+        propertiesMap.put("desktop.color", "GREEN");
+        String updateDateAsStr = "10/12/3020";
+        propertiesMap.put("application.update.date", updateDateAsStr);
+
+```
+
 Define some fancy interface
 ```java
 public interface GoodAppConfig {
@@ -39,5 +56,3 @@ Call methods and use it everywhere:
         Assertions.assertEquals(Color.GREEN, appConfig.getDesktopColor());
 
 ```
-
-Don't forget to say thank you to the author ;)
